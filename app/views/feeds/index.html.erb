@@ -2,11 +2,11 @@
 <article>
 
   <% @feeds.each do |feed|%>
-    <div class="wrapper">
-       <h1> <%= link_to feed.title , feed.url %></h1>
-       <p  class="article-meta" ><strong>Author: </strong><%= feed.autor%></p>
-    </div>
-<%end%>
+      <div class="wrapper">
+        <h1> <%= link_to feed.title , feed.url %></h1>
+        <p  class="article-meta" ><strong>Author: </strong><%= feed.autor%></p>
+      </div>
+  <%end%>
   <%= will_paginate @feeds %>
 
 </article>

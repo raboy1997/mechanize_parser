@@ -1,3 +1,36 @@
 // Place all the styles related to the feeds controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+article {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.article-meta {
+  font-family: sans-serif;
+  color: #aaa;
+  font-size: 12px;
+}
+
+a:link {
+  text-decoration: none;
+  color: #4B0082;
+}
+a:visited { text-decoration: none; }
+a:active { text-decoration: none; }
+a:hover {
+  color: red;
+}
+
+.wrapper{
+  border: 3px solid #808080;
+  margin-top: 2px;
+}
