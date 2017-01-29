@@ -1,3 +1,4 @@
+
 Rails.application.routes.draw do
 root "feeds#index"
 
@@ -5,5 +6,7 @@ root "feeds#index"
       get 'feeds' => 'feeds#index'
       get 'feeds/:id' => 'feeds#show'
   end
+
+
 
 end

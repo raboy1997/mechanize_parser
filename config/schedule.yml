@@ -1,0 +1,5 @@
+ParseWorker:
+  cron: "*/1 * * * * * "
+  class: "ParsersWorker"
+  queue: default
+  active_job: true
