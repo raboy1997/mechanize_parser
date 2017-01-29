@@ -1,3 +1,4 @@
+# class
 class Api::FeedsController < ApplicationController
   def index
     @feeds = Feed.all
